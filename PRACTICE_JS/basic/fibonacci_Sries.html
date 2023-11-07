@@ -1,0 +1,20 @@
+<html>
+    <body>
+        
+    </body>
+    <script>
+        var limit=parseInt(prompt("enter the limit upto which you have to print fibonacci series: "));
+        var a=0,b=1,c=0;
+    
+          
+        //initial series is 0 1 so a and b
+        document.write(a+" "+b);
+
+        for(let i=0;i<=limit-2;i++){
+            c=a+b;
+            document.write(" "+c);
+            a=b;
+            b=c;   
+        }
+    </script>
+</html>

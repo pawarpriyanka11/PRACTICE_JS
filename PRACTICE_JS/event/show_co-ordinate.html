@@ -1,0 +1,12 @@
+<html>
+    <body onmousemove="show_co(event)">
+        <p id="para">Move your mouse hare to see x and y co-ordinate: </p>
+    </body>
+    <script>
+        
+        function show_co(event)
+        {
+            document.getElementById("para").innerHTML="x co-ordinate: "+event.clientX+"<br>y co-ordinate: "+event.clientY;
+        }
+    </script>
+</html>

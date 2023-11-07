@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <input type="button" onclick="show()" id="btn" value="click me">
+        <p>click count:<span id="clickcount"></span></p>
+    </body>
+    <script>
+        var cnt=0;
+        function show()
+        {
+            cnt++; 
+             document.getElementById("clickcount").textContent=cnt;
+
+        }
+    </script>
+</html>

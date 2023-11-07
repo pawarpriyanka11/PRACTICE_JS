@@ -1,0 +1,23 @@
+<html>
+    <body>
+        
+    </body>
+    <script>
+        var sum=0,digit;
+        var n=parseInt(prompt("enetr the number to check if it is palindrome or not: "));
+        var num=n;
+        while(num!=0){
+            digit=num%10;
+            sum=sum*10+digit;
+            num=parseInt(num/10);
+        }
+        if(sum==n)
+        {
+            document.write("palindromee!!");
+        }
+        else{
+            document.write("not a palindromee!!");
+        }
+        
+    </script>
+</html>
